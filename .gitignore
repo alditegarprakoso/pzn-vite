@@ -3,6 +3,7 @@
 
 # Vite build output
 /dist
+/production
 
 # Local environment files
 .env.local
