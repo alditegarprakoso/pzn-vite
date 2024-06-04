@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Belajar Vite - PZN</title>
+    <style>
+      @import url(style.css);
+      @import url(sample.scss);
+    </style>
   </head>
   <body>
     <h1>Belajar Vite - PZN</h1>
+    <h2>Support SASS</h2>
     <script type="module">
       import { sayHello } from "./say-hello.js";
       import { sayGoodbye } from "./say-goodbye.ts";
+      import { v4 } from "uuid";
 
       sayHello("Aldi");
       sayGoodbye("Aldi");
+      console.info(v4());
     </script>
   </body>
 </html>
