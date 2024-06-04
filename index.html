@@ -20,11 +20,13 @@
       import { sayGoodbye } from "./say-goodbye.ts";
       import { v4 } from "uuid";
       import * as person from "./person.json";
+      import textFile from "./hello.txt?raw";
 
       sayHello("Aldi");
       sayGoodbye("Aldi");
       console.info(v4());
       console.info(person);
+      console.info(textFile);
     </script>
   </body>
 </html>
